@@ -41,7 +41,7 @@ jobs:
       - name: Run PHPUnit Tests
         run: |
           phpunit --configuration ./php_app/phpunit.xml  # Ejecutar las pruebas
-
+    #nuevo comentario para poder hacer el push
       # Si las se pasa el phpunit, continúa con Terraform
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
