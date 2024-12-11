@@ -40,7 +40,6 @@ jobs:
       # Ejecutar pruebas unitarias antes del despliegue
       - name: Run PHPUnit Tests
         run: |
-          cd php_app  
           phpunit --configuration phpunit.xml  # Ejecutar las pruebas
 
       # Si las se pasa el phpunit, continúa con Terraform
